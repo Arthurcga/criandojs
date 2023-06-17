@@ -8,7 +8,8 @@
 <body>
     <script>
         var nome = window.prompt('Qual o seu nome?')
-        document.write(`Seu nome tem ${nome.length} letras`)
+        document.write(`Seu nome tem <strong>${nome.length}</strong> letras <br>`)// Atencao como o BR funciona aqui!
+        document.write(`Seu nome em maiusculas e ${nome.toLocaleUpperCase()} !`)
     </script>
     
 </body>
