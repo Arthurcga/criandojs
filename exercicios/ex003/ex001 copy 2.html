@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa Java!</title>
+</head>
+<body>
+    <h1> Hello, world!</h1>
+
+    <p>Amo voces!!</p>
+    <script>
+        var nome = window.prompt('Como posso te chamar?')
+        window.alert(`Ola, ${nome} !`)
+        var n1 = Number.parseInt(window.prompt('Digite um numero:')) // vai ganhar valor de string
+        var n2 = Number.parseInt(window.prompt(' Digite outro numero:'))// vai ganhar valor de string
+        var s = n1 + n2
+
+        window.alert(`A soma entre ${n1} + ${n2} e igual a ${s}.`) // usando string template inves de  concatenacao
+
+        //window.alert('A soma dos valores e:' + s + '!') // o + tem valor de adicao e de concatenacao.
+        /* O + tem valor de (number + number) adicao.
+        (string + string) concatenacao */
+    </script>
+    
+</body>
+</html>
